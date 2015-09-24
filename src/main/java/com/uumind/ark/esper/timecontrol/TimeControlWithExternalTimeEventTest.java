@@ -16,7 +16,7 @@ import com.espertech.esper.client.time.CurrentTimeEvent;
 /**
  * 使用sendEvent(ExternalTimeEvent)的方式进行时间窗口的控制
  */
-public class TimeControlWithExternalTimeEvent {
+public class TimeControlWithExternalTimeEventTest {
 
 	public static void main(String[] args) {
 		Configuration config = new Configuration();

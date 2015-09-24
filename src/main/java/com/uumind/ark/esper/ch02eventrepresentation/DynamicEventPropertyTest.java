@@ -42,7 +42,7 @@ public class DynamicEventPropertyTest {
 					System.out.println("Apple's price is " + newEvents[0].get("price?"));
 					System.out.println("Apple's id is " + newEvents[0].get("id?"));
 					System.out.println("Apple's abs is " + newEvents[0].get("abs?"));
-					System.out.println("=================================");
+					System.out.println("=================================" + newEvents[0].getUnderlying());
 				}
 			}
 		});
